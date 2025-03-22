@@ -54,7 +54,7 @@ void loop() {
                   data.temperature, data.humidity);
     delay(2000);
 }
-
+```cpp
 
 ### **2. The Modified Receiver Code**
  - Modify the `struct` to get the `name` of the ESP Board.
