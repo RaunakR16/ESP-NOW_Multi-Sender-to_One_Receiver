@@ -14,7 +14,7 @@ This repository contains **modified ESP-NOW communication code** using the **Con
 
 
 ### **The Modified Sender Code**
-🔹 Modify the struct to add the name of the ESP Board.
+ - Modify the struct to add the name of the ESP Board.
  - This helps in getting the MAC address of the receiver.
 ```cpp
 #include <ConsentiumNow.h>
