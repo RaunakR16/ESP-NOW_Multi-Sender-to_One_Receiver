@@ -58,7 +58,9 @@ void loop() {
 
 ### **2. The Modified Receiver Code**
  - Modify the `struct` to get the `name` of the ESP Board.
- - A new function, `getMacAddress()`, has been added to retrieve and print the ESP32 MAC address, which helps get the MAC address of the receiver.
+ -  Added two header files `WiFi.h` and `esp_wifi.h` to get the MAC Address.
+ - `getMacAddress()`, has been added to retrieve and print the ESP32 MAC address, which helps get the MAC address of the receiver.
+ 
 
 ```cpp
 #include <ConsentiumNow.h>
