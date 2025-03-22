@@ -1,2 +1,1 @@
-# ESP-NOW
-Multi-Sender to One Receiver
+ESP-NOW Multi-Sender to One Receiver (Modified)
