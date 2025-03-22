@@ -9,12 +9,12 @@ This repository contains **modified ESP-NOW communication code** using the **Con
 - The receiver now prints **device-friendly names** instead of raw MAC addresses or sender numbers.
 
 ### 🔹 2️⃣ Added getMacAddress() Function in Receiver Code
- - A new function, 'getMacAddress()', has been added to retrieve and print the ESP32 MAC address.
+ - A new function, `getMacAddress()`, has been added to retrieve and print the ESP32 MAC address.
  - This helps in getting the MAC address of the receiver.
 
 
 ### **The Modified Sender Code**
- - Modify the struct to add the name of the ESP Board.
+ - Modify the `struct` to add the `name` of the ESP Board.
  - This helps in getting the MAC address of the receiver.
 ```cpp
 #include <ConsentiumNow.h>
