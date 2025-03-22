@@ -5,12 +5,13 @@ This repository contains **modified ESP-NOW communication code** using the **Con
 ## 🚀 Changes & Enhancements
 
 ### 🔹 1️⃣ Added Human-Readable Sender Identification
-- Instead of using **MAC addresses or numbers**, each sender now has a **unique name** (e.g., `ESP_Lab`, `ESP_Home`).
+- Instead of using **MAC addresses or numbers**, each sender now has a **unique name**.
 - The receiver now prints **device-friendly names** instead of raw MAC addresses or sender numbers.
 
-### 🔹 2️⃣ Updated `SensorData` Structure
-- Previously, `SensorData` only contained **temperature** and **humidity**.
-- Now, it also includes a `name` field to identify the sender.
+### 🔹 2️⃣ Added getMacAddress() Function in Receiver Code
+🔹 A new function, getMacAddress(), has been added to retrieve and print the ESP32 MAC address.
+🔹 This helps in getting the MAC address of the receiver.
+
 
 #### **Before (Original Data Structure)**
 ```cpp
