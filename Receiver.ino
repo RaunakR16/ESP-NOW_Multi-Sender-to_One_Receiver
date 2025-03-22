@@ -50,8 +50,7 @@ void loop()
     {
         SensorData data = consentiumReceiver.getReceivedData();
         Serial.printf("Getting Data from : %s\n", data.name);
-        Serial.printf("Received Data - Temperature: %.2f, Humidity: %.2f\n", 
-                      data.temperature, data.humidity);
+        Serial.printf("Received Data - Temperature: %.2f, Humidity: %.2f\n", data.temperature, data.humidity);
     }
     delay(500);
 }
