@@ -5,7 +5,7 @@
 // Define the data structure
 struct SensorData 
 {
-    char name[100]; // give a name to the ESP Board
+    char name[100]; // Give a name to the ESP Board
     float temperature;
     float humidity;
 };
