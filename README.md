@@ -120,3 +120,9 @@ void loop()
     }
     delay(500);
 }
+```
+---
+## 🚀 How to Use
+ - Upload the sender code to each ESP32 device, making sure each sender has a unique name assigned to `SensorData.name`.
+ - Upload the receiver code to an ESP32 device.
+ - Open the Serial Monitor (*115200 baud rate*) to view received data along with the sender's name.
