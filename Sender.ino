@@ -1,4 +1,3 @@
-
 #include <ConsentiumNow.h>
 
 // Define the data structure
